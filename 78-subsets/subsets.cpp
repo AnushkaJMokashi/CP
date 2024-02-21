@@ -5,11 +5,11 @@ public:
             ans.push_back(ds);
             return;
         }
-
+        findsubset(i+1,ds,ans,nums);
         ds.push_back(nums[i]);
         findsubset(i+1,ds,ans,nums);
         ds.pop_back();
-        findsubset(i+1,ds,ans,nums);
+        
     }
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<int>ds ;
