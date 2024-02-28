@@ -13,13 +13,7 @@ public:
             swap(nums[ind],nums[i]);
         }
     }
-    // void swap( vector<int> &arr1,vector<int>&arr2){
-    //     int temp;
-    //     temp = arr1[i];
-    //     arr1[i] = arr2[i+1];
-    //     arr2[i+1] = temp;
-
-    // }
+         
     vector<vector<int>> permute(vector<int>& nums) {
         
         vector <vector <int>> ans;
