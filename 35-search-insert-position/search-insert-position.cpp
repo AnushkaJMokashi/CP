@@ -5,8 +5,8 @@ public:
         for(int i = 0; i<nums.size(); i++){
             if(nums[i] == target) return i;
             if(nums[i] > target){
-                k = i;
-                return k;
+                k=i;
+                return i;
             }
                 
         }
